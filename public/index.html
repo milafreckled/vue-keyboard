@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="stylesheet" href="../src/styles/main.css" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="https://unpkg.com/vue@3"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app">
+      <div class="langSwitcher">
+        <div class="lang active">en</div>
+        <div class="lang">ru</div>
+        <div class="lang">ar</div>
+      </div>
+      <div class="row row-1">
+        <div class="key">
+          <div class="main">Esc</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">F1</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">F2</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">F3</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">F4</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">F5</div>
+          <div class="shifted"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="key">
+          <div class="main">`</div>
+          <div class="shifted">~</div>
+        </div>
+        <div class="key">
+          <div class="main">1</div>
+          <div class="shifted">2</div>
+        </div>
+        <div class="key">
+          <div class="main">2</div>
+          <div class="shifted">@</div>
+        </div>
+        <div class="key">
+          <div class="main">3</div>
+          <div class="shifted">#</div>
+        </div>
+        <div class="key">
+          <div class="main">4</div>
+          <div class="shifted">$</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="key Tab">
+          <div class="main">Tab</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">Q</div>
+          <div class="shifted">~</div>
+        </div>
+        <div class="key">
+          <div class="main">W</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">E</div>
+          <div class="shifted"></div>
+        </div>
+        <div class="key">
+          <div class="main">R</div>
+          <div class="shifted"></div>
+        </div>
+      </div>
+    </div>
+    <!-- built files will be auto injected -->
+    <script src"../src/main.js" type="module"></script>
+  </body>
+</html>
